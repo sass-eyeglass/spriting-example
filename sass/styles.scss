@@ -1,4 +1,3 @@
-
 @import "spriting";
 
 $icon-sprite-map: sprite-map('icon-sprite-map',
@@ -18,5 +17,7 @@ $icon-sprite-map: sprite-map('icon-sprite-map',
     @extend %icon-bg;
     @include sprite-position($icon-sprite-map, $icon);
     @include sprite-dimensions($icon-sprite-map, $icon);
+    background-color: #ADD8E6;
+
   }
 }
