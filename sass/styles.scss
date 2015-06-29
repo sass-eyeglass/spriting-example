@@ -1,0 +1,22 @@
+
+@import "spriting";
+
+$icon-sprite-map: sprite-map('icon-sprite-map',
+                              sprite-layout(horizontal, (spacing: 5px, alignment: bottom)),
+                              'icons/*');
+
+// @debug $icon-sprite-map;
+
+// calling sprite-background generates the sprite map image
+%icon-bg {
+  @include sprite-background($icon-sprite-map);
+}
+
+@each $icon in sprite-list($icon-sprite-map) {
+  // @debug sprite-identifier($icon-sprite-map, $icon);
+  .icon-#{sprite-identifier($icon-sprite-map, $icon)} {
+    @extend %icon-bg;
+    @include sprite-position($icon-sprite-map, $icon);
+    @include sprite-dimensions($icon-sprite-map, $icon);
+  }
+}
