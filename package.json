@@ -1,0 +1,9 @@
+{
+  "name": "eyeglass-spriting-example",
+  "devDependencies": {
+    "eyeglass": "^0.2.0"
+  },
+  "dependencies": {
+    "eyeglass-spriting": "*"
+  }
+}
