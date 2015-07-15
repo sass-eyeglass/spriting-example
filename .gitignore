@@ -3,3 +3,4 @@ node_modules
 dist
 archives
 assets/images/temp
+.DS_Store
