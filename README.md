@@ -1,13 +1,6 @@
 
-# eyeglass spriting example
+## eyeglass spriting example
 
-Clone the repository, then:
+Clone the repository, then run `npm install`.
 
-	npm install
-	npm install -g broccoli-cli
-
-To compile `sass/styles.scss`, run
-
-	broccoli build css
-
-Css is generated at `css/styles.css`. View the project at `index.html`.
+Running `./build.js` will generate the spritemaps and css in the `dist` directory and serve files from here. An example of sprites usage will run at `localhost:8080`.

@@ -1,6 +1,5 @@
 node_modules
-Brocfile.js
-
-images/*
-assets/*
-css
+.eyeglass_cache
+dist
+archives
+assets/images/temp
