@@ -4,9 +4,9 @@
 // icon sprites
 $icon-sprite-map: sprite-map('icon-sprite-map',
                               sprite-layout(horizontal, (spacing: 5px, alignment: bottom)),
-                              // sprite-layout(vertical, (spacing: 50px, alignment: left)),
+                              // sprite-layout(vertical, (spacing: 5px, alignment: left)),
                               // sprite-layout(diagonal, ()),
-                             'images/icons/*');
+                             'images/icons/*.png');
 
 // @debug $icon-sprite-map;
 
