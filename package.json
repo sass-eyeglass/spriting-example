@@ -1,8 +1,10 @@
 {
   "devDependencies": {
     "node-sass": "*",
+    "gulp": "*",
+    "gulp-sass": "*",
     "eyeglass": "*",
-    "eyeglass-spriting": "*",
+    "eyeglass-spriting": "git@github.com:sass-eyeglass/eyeglass-spriting.git",
     "fs-extra": "*"
   },
   "dependencies": {
